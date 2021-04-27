@@ -1,3 +1,3 @@
-# ppx-remove-deriving
+# ppx-reanimated-worklet
 
-This PPX rewriter attempts to remove all [@@deriving] derivers unknown to ReScript.
+PPX Rewriters for React Native Reanimated

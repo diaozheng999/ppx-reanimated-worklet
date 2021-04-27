@@ -1,6 +1,6 @@
 {
-  "checksum": "9a8836f534dae9e41f6765e8f4445879",
-  "root": "@nasi/ppx-precisely-common@link-dev:./package.json",
+  "checksum": "4326d5928f2c7959e881292b654e4eae",
+  "root": "@nasi/ppx-remove-deriving@link-dev:./package.json",
   "node": {
     "ocaml@4.11.2000@d41d8cd9": {
       "id": "ocaml@4.11.2000@d41d8cd9",
@@ -1284,9 +1284,9 @@
       ],
       "devDependencies": [ "ocaml@4.11.2000@d41d8cd9" ]
     },
-    "@nasi/ppx-precisely-common@link-dev:./package.json": {
-      "id": "@nasi/ppx-precisely-common@link-dev:./package.json",
-      "name": "@nasi/ppx-precisely-common",
+    "@nasi/ppx-remove-deriving@link-dev:./package.json": {
+      "id": "@nasi/ppx-remove-deriving@link-dev:./package.json",
+      "name": "@nasi/ppx-remove-deriving",
       "version": "link-dev:./package.json",
       "source": {
         "type": "link-dev",
@@ -1297,14 +1297,34 @@
       "dependencies": [
         "ocaml@4.11.2000@d41d8cd9", "@opam/ppxlib@opam:0.22.0@17206ba4",
         "@opam/ocamlfind-secondary@opam:1.8.1@1afa38b2",
-        "@opam/ocaml-migrate-parsetree@opam:2.1.0@a3b6747d"
+        "@opam/ocaml-migrate-parsetree@opam:2.1.0@a3b6747d",
+        "@opam/dune@opam:2.8.4@1490e2a1",
+        "@nasi/ppx-precisely-common@0.1.1@d41d8cd9"
       ],
       "devDependencies": [
         "@opam/ocamlformat@opam:0.17.0@643c4315",
         "@opam/ocaml-lsp-server@opam:1.4.1@cd85c376",
-        "@opam/merlin@opam:4.1-411@2ac33a62",
-        "@opam/dune@opam:2.8.4@1490e2a1"
+        "@opam/merlin@opam:4.1-411@2ac33a62"
       ]
+    },
+    "@nasi/ppx-precisely-common@0.1.1@d41d8cd9": {
+      "id": "@nasi/ppx-precisely-common@0.1.1@d41d8cd9",
+      "name": "@nasi/ppx-precisely-common",
+      "version": "0.1.1",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/@nasi/ppx-precisely-common/-/ppx-precisely-common-0.1.1.tgz#sha1:5d7a6de283e687e131acf483ba655d486937ea34"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [
+        "ocaml@4.11.2000@d41d8cd9", "@opam/ppxlib@opam:0.22.0@17206ba4",
+        "@opam/ocamlfind-secondary@opam:1.8.1@1afa38b2",
+        "@opam/ocaml-migrate-parsetree@opam:2.1.0@a3b6747d",
+        "@opam/dune@opam:2.8.4@1490e2a1"
+      ],
+      "devDependencies": []
     },
     "@esy-ocaml/substs@0.0.1@d41d8cd9": {
       "id": "@esy-ocaml/substs@0.0.1@d41d8cd9",

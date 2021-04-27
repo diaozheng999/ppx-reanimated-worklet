@@ -1,13 +1,15 @@
 {
-  "name": "@nasi/ppx-remove-deriving",
+  "name": "@nasi/ppx-reanimated-worklet",
   "version": "0.1.0",
-  "esy": { "build": "dune build -p ppx_remove_deriving" },
-  "description": "[Esy dependency] Removes unrecognised [@@deriving] extensions by ReScript",
+  "esy": { "build": "dune build -p ppx_reanimated_worklet" },
+  "description":
+    "[Esy dependency] PPX rewriters for React Native Reanimated",
   "dependencies": {
+    "@nasi/ppx-precisely-common": "^0.1.1",
+    "@opam/dune": "2.8.4",
     "@opam/ocaml-migrate-parsetree": "2.1.0",
     "@opam/ocamlfind-secondary": "*",
     "@opam/ppxlib": "0.22.0",
-    "@opam/dune": "2.8.4",
     "ocaml": "4.11.x"
   },
   "devDependencies": {

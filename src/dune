@@ -1,6 +1,6 @@
 (library
- (name ppx_remove_deriving)
- (public_name ppx_remove_deriving)
+ (name ppx_reanimated_worklet)
+ (public_name ppx_reanimated_worklet)
  (kind ppx_rewriter)
- (libraries ppxlib)
+ (libraries ppxlib ppx_precisely_common)
  (preprocess (pps ppxlib.metaquot)))
