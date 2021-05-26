@@ -64,10 +64,10 @@ type f : (int -> int -> int) Reanimated.worklet2
 ```
 
 
-**NOTE** Although the equivalent syntax in ReScript is below, however, it does not seem to work when I tested it.
+**NOTE** The equivalent syntax in ReScript is below. However, it is untested.
 
 ```rescript
-%wklt(let f = (a, b) => a + b)
+%%wklt(let f = (a, b) => a + b)
 ```
 
 ## `%worklet`
