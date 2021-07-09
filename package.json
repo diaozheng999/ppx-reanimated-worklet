@@ -1,6 +1,6 @@
 {
   "name": "@nasi/ppx-reanimated-worklet",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "esy": { "build": "dune build -p ppx_reanimated_worklet" },
   "description":
     "[Esy dependency] PPX rewriters for React Native Reanimated",
